@@ -14,3 +14,6 @@ Backend: PHP (Core PHP)
 Database: MySQL
 Server Environment: XAMPP (Apache)
 API Integrations: Khalti SDK, PHPMailer (SMTP)
+
+How the Recommendation Works
+The system analyzes book metadata to create Descriptive Vectors. It then calculates the mathematical angle between these vectors using Cosine Similarity to produce a match score between 0 and 1. Books with the highest scores are automatically ranked and displayed in the "Recommended for You" section.
